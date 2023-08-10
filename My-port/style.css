@@ -1,0 +1,253 @@
+body {
+    min-width: 290px;
+    background-color: #685E6C;
+   line-height: 1.5;
+    color:#fff;
+  }
+  
+  #navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+  }
+  
+  header {
+  
+    margin: 10px;
+    text-align: center;
+   font-weight: thin;
+  }
+  
+  #main-doc header {
+    text-align: left;
+    margin: 0px;
+  }
+  
+  #navbar ul {
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  #navbar li {
+  
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+  }
+  
+  #navbar a {
+    display: block;
+    padding: 10px 30px;
+  
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .image-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* This will create a circular shape */
+    overflow: hidden; /* This will ensure the image stays within the circular shape */
+    margin: 0 auto; /* Centers the circular image */
+  }
+  
+  .image-circle img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  #main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+  }
+  
+  .main-section {
+    min-height: 100vh;
+  }
+  
+  /* Center-align text content both horizontally and vertically */
+  .center-text {
+    padding-top:10%;
+    padding-bottom:10%;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+  
+  }
+  
+  svg{
+    margin:10px;
+  }
+  
+  .text-right{
+    text-align: right;
+  }
+  
+  /* Style the header inside the section */
+  .main-section header {
+  
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the container and add some spacing around it */
+  .main-section .container {
+    margin: 20px;
+  }
+  
+  /* Style the columns inside the container */
+  .main-section .col {
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style the images inside the columns */
+  .main-section img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the "View" buttons */
+  .main-section .btn {
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Add some spacing between the rows */
+  .main-section .row {
+    margin-bottom: 20px;
+  }
+  .name-size{
+    font-size: 50px;
+  }
+  .name-color{
+    color: blue;
+  }
+  .disc-color{
+    color:black;
+  }
+  
+  .red-color{
+    color:black;
+  }
+  
+  .git-color{
+    color:black;
+  }
+  
+  .disc-color:hover{
+    color:#5E43D5;
+  }
+  
+  .red-color:hover{
+    color:#E74F0E;
+  }
+  
+  .git-color:hover{
+    color:blue;
+  }
+  .html-color{
+    color:#fff;
+  }
+  .html-color:hover{
+    color:#E76F26;
+    width:80px;
+    height:80px;
+    border:2px;
+    border-radius:100%;
+    background-color:#fff;
+  }
+  .css-color{
+    color:#fff;
+  
+  }
+  .css-color:hover{
+     color:#263ED8;
+    width:80px;
+    height:80px;
+    border:2px;
+    border-radius:100%;
+    background-color:#fff;
+  }
+  .js-color{
+    color:#fff;
+  }
+  .js-color:hover{
+     color:#E7F32C;
+    width:80px;
+    height:80px;
+    border:2px;
+    border-radius:100%;
+    background-color:#fff;
+  }
+  .bootstrap-color{
+    color:#fff;
+  }
+  .bootstrap-color:hover{
+     color:#8024E1;
+    width:80px;
+    height:80px;
+    border:2px;
+    border-radius:100%;
+    background-color:#fff;
+  }
+  .box{
+    border:2px solid;
+    border-radius:25px;
+    background-color:#fff;
+  position:absolute;
+  }
+  .menusetting{
+    color:#fff;
+  }
+  .menusetting:hover{
+    color:#20D038;
+    font-size:20px;
+    background:#fff;
+  }
+  .ex-box{
+    border:2px solid;
+    border-radius:25px;
+    background-color:#fff;
+    color:#000;
+    text-align:center;
+    padding:10px;
+    margin:30px;
+  }
+  .education-box{
+    border:10px solid;
+    border-radius:25px;
+     background-color:#fff;
+     color:#000;
+  }
+  .other-box{
+    border:1px solid;
+    border-radius:25px;
+     background-color:#fff;
+     color:#000; 
+  }
+  h1 {
+    font-size: 2.2em;
+  }
+  .linkso{
+color:#16b595;
+  }
+  
